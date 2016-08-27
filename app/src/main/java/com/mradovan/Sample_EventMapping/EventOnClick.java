@@ -18,6 +18,6 @@ public class EventOnClick implements View.OnClickListener {
     @Override
     public void onClick(View view){
         txtTopLeft = (TextView) mainActivity.findViewById(com.mradovan.Sample_EventMapping.R.id.txtTopLeft);
-        txtTopLeft.setText("Text Changed!");
+        txtTopLeft.setText("Changed!");
     }
 }
